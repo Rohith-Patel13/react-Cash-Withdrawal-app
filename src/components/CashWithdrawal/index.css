@@ -1,0 +1,74 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.bg {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerCard {
+  background-color: #150b3e;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 80%;
+}
+
+.profileCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profileLogo {
+  color: #7c3aed;
+}
+.profileName {
+  color: #d4d2db;
+}
+.profileLogoCircle {
+  background-color: #c7d2fe;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.balanceCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.rupeesRemained {
+  color: #c4c4c4;
+  font-size: 24px;
+}
+.text {
+  color: #585076;
+}
+
+.withdrawText {
+  color: #c4c4c4;
+}
+
+.rupeesIncrementButtonsCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}

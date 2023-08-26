@@ -1,0 +1,10 @@
+/* Write your CSS here */
+.btnEl {
+  background-color: #382f5a;
+  border-radius: 4px;
+  color: white;
+  padding: 4px 3rem;
+  margin: 8px;
+  border: 1px solid white;
+  cursor: pointer;
+}
